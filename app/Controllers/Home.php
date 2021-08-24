@@ -6,6 +6,10 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('dashboard/vw_dashboard');
+		$data = [
+			'title' => 'Dashboard || Nama Toko'
+		];
+
+		return view('dashboard/vw_dashboard', $data);
 	}
 }
