@@ -19,8 +19,42 @@
 </head>
 
 <body>
-    <!-- Navbar -->
     <section>
+        <nav class="navbar navbar-expand-lg navbar-light nav-color">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Nama Toko</a>
+                <div class="d-flex flex-row-reverse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary position-relative">
+                                <i class="bi bi-bell"></i>
+                                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </button>
+                            <!-- <span class="badge badge-danger notif">5</span> -->
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nama Admin
+                            </a>
+                            <ul class="dropdown-menu float-start" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Profil</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Log Out</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Navbar -->
+    <!-- <section>
         <div class="topbar transition">
             <div class="bars">
                 <button type="button" class="btn transition" id="sidebar-toggle">
@@ -30,15 +64,6 @@
             <div class="menu">
 
                 <ul>
-
-                    <!-- <li>
-                        <div class="theme-switch-wrapper">
-                            <label class="theme-switch" for="checkbox">
-                                <input type="checkbox" id="checkbox" title="Dark Or White" />
-                                <div class="slider round"></div>
-                            </label>
-                        </div>
-                    </li> -->
 
                     <li>
                         <a href="#" class="transition">
@@ -72,17 +97,12 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End Navbar -->
 
     <!-- Sidebar And Items-->
     <section>
-        <div class="sidebar transition">
-            <div class="logo">
-                <a href="#">
-                    <p>Nama TOKO</p>
-                </a>
-            </div>
+        <div class="sidebar">
 
             <!-- Start Menu -->
             <div class="sidebar-items">
@@ -92,138 +112,54 @@
                     <p class="menu">Navigation</p>
 
                     <li>
-                        <a href="index.html" class="transition active">
-                            <i class="las la-home"></i>
+                        <a href="#" class="transition active">
+                            <i class="bi bi-shop"></i>
                             <span>Dashoard</span>
                         </a>
                     </li>
 
-                    <!-- Title Header  -->
-                    <p class="menu">STARTER</p>
-
                     <li>
-                        <a href="#" data-bs-toggle="collapse" data-bs-target="#starter-layout" aria-expanded="false">
-                            <i class="las la-columns"></i>
-                            <span>Layout</span>
-                            <i class="las la-angle-down toggle-right"></i>
-                        </a>
-                        <div class="collapse btn-toggle-submenu" id="starter-layout">
-
-                            <ul class="btn-toggle-nav">
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Tabs</a></li>
-                                <li><a href="#">Tables</a></li>
-                            </ul>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="index.html" class="transition">
-                            <i class="las la-meh-blank"></i>
-                            <span>Blank Pages</span>
+                        <a href="#" class="transition">
+                            <i class="bi bi-shop"></i>
+                            <span>Chat</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" data-bs-toggle="collapse" data-bs-target="#starter-bootstrap" aria-expanded="false">
-                            <i class="las la-th"></i>
-                            <span>Bootstrap</span>
-                            <i class="las la-angle-down toggle-right"></i>
+                        <a href="#" class="transition">
+                            <i class="bi bi-shop"></i>
+                            <span>Diskusi</span>
                         </a>
-                        <div class="collapse btn-toggle-submenu" id="starter-bootstrap">
+                    </li>
 
-                            <ul class="btn-toggle-nav">
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Tabs</a></li>
-                                <li><a href="#">Tables</a></li>
-                            </ul>
+                    <li>
+                        <a href="#" class="transition">
+                            <i class="bi bi-shop"></i>
+                            <span>Produk</span>
+                        </a>
+                    </li>
 
-                        </div>
+                    <li>
+                        <a href="#" class="transition">
+                            <i class="bi bi-shop"></i>
+                            <span>Penjualan</span>
+                        </a>
                     </li>
 
                     <!-- Title Header  -->
-                    <p class="menu">Atrana</p>
+                    <p class="menu">Barang</p>
 
                     <li>
-                        <a href="#" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                            <i class="las la-table"></i>
-                            <span>Components</span>
-                            <i class="las la-angle-down toggle-right"></i>
-                        </a>
-                        <div class="collapse btn-toggle-submenu" id="dashboard-collapse">
-
-                            <ul class="btn-toggle-nav">
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Tabs</a></li>
-                                <li><a href="#">Tables</a></li>
-                            </ul>
-
-                        </div>
-                    </li>
-
-
-
-                    <!-- Title Header  -->
-                    <p class="menu">Pages</p>
-
-
-                    <li>
-                        <a href="#" data-bs-toggle="collapse" data-bs-target="#pages-auth" aria-expanded="false">
-                            <i class="las la-user-tie"></i>
-                            <span>Auth</span>
-                            <i class="las la-angle-down toggle-right"></i>
-
-                        </a>
-                        <div class="collapse btn-toggle-submenu" id="pages-auth">
-
-                            <ul class="btn-toggle-nav">
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Register</a></li>
-                                <li><a href="#">Forgot Password</a></li>
-                                <li><a href="#">Reset Password</a></li>
-                            </ul>
-
-                        </div>
-                    </li>
-
-
-
-                    <li>
-                        <a href="#" data-bs-toggle="collapse" data-bs-target="#pages-Errors" aria-expanded="false">
-                            <i class="las la-exclamation-circle"></i>
-                            <span>Errors</span>
-                            <i class="las la-angle-down toggle-right"></i>
-                        </a>
-                        <div class="collapse btn-toggle-submenu" id="pages-Errors">
-
-                            <ul class="btn-toggle-nav">
-                                <li><a href="#">404</a></li>
-                                <li><a href="#">403</a></li>
-                                <li><a href="#">401</a></li>
-                            </ul>
-
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="index.html" class="transition">
-                            <i class="las la-pencil-ruler"></i>
-                            <span>Credits</span>
+                        <a href="#" class="transition">
+                            <i class="bi bi-shop"></i>
+                            <span>Tambah Stok Barang</span>
                         </a>
                     </li>
 
-
-                    <!-- Divider -->
-                    <hr class="mt-5">
-
-                    <!-- Title Header  -->
-                    <p class="mt-1 docs-header">Documentation</p>
-
                     <li>
-                        <a href="index.html" class="transition">
-                            <i class="las la-share"></i>
-                            <span> Upgrade to PRO</span>
+                        <a href="#" class="transition">
+                            <i class="bi bi-shop"></i>
+                            <span>Pembayaran</span>
                         </a>
                     </li>
 
@@ -236,7 +172,7 @@
 
     <!-- Content -->
     <section>
-        <div class="content transition">
+        <div class="content">
             <div class="container-fluid dashboard">
                 <h3>Dashboard</h3>
 
