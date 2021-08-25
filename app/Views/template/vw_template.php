@@ -112,7 +112,7 @@
                     <p class="menu">Navigation</p>
 
                     <li>
-                        <a href="#" class="transition active">
+                        <a href="<?= base_url('home/index'); ?>" class="transition active">
                             <i class="bi bi-shop"></i>
                             <span>Dashoard</span>
                         </a>
@@ -150,7 +150,7 @@
                     <p class="menu">Barang</p>
 
                     <li>
-                        <a href="#" class="transition">
+                        <a href="<?= base_url('stokbarang/view_stok'); ?>" class="transition">
                             <i class="bi bi-shop"></i>
                             <span>Tambah Stok Barang</span>
                         </a>
@@ -160,6 +160,16 @@
                         <a href="#" class="transition">
                             <i class="bi bi-shop"></i>
                             <span>Pembayaran</span>
+                        </a>
+                    </li>
+
+                    <!-- Title Header  -->
+                    <p class="menu">Barang</p>
+
+                    <li>
+                        <a href="#" class="transition">
+                            <i class="bi bi-shop"></i>
+                            <span>Log Activity</span>
                         </a>
                     </li>
 
@@ -174,7 +184,6 @@
     <section>
         <div class="content">
             <div class="container-fluid dashboard">
-                <h3>Dashboard</h3>
 
                 <div class="row">
 
