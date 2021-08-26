@@ -157,17 +157,17 @@
                     </li>
 
                     <li>
-                        <a href="#" class="transition">
+                        <a href="<?= base_url('pembayaran/view_pembayaran'); ?>" class="transition">
                             <i class="bi bi-shop"></i>
                             <span>Pembayaran</span>
                         </a>
                     </li>
 
                     <!-- Title Header  -->
-                    <p class="menu">Barang</p>
+                    <p class="menu">Kegiatan</p>
 
                     <li>
-                        <a href="#" class="transition">
+                        <a href="<?= base_url('logactivity/view_log_activity'); ?>" class="transition">
                             <i class="bi bi-shop"></i>
                             <span>Log Activity</span>
                         </a>
