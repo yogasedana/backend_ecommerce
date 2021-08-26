@@ -15,6 +15,9 @@
     <!-- Icon GetBootstrap -->
     <link rel="stylesheet" href="<?= base_url(); ?>/assets/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
+    <!-- script jQuery -->
+    <script src="<?= base_url(); ?>/assets/jquery/jquery-1.11.1.min.js"></script>
+
     <title><?= $title; ?></title>
 </head>
 
@@ -197,6 +200,16 @@
     </section>
     <!-- End Content -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" id="modal">
+
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+
     <!-- Footer  -->
     <section>
         <div class="footer transition">
@@ -209,6 +222,10 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="<?= base_url(); ?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="<?= base_url(); ?>/assets/jquery/jquery.form.js"></script>
+    <script src="<?= base_url(); ?>/assets/jquery-validation/jquery.validate.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/jquery-validation/additional-methods.min.js"></script>
 
     <!-- Script JS -->
     <script src="<?= base_url(); ?>/assets/js/script.js"></script>
