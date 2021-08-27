@@ -115,7 +115,7 @@
                     <p class="menu">Navigation</p>
 
                     <li>
-                        <a href="<?= base_url('home/index'); ?>" class="transition active">
+                        <a href="<?= base_url('home/index'); ?>" <?php if ($title == 'Dashboard || Nama Toko') echo 'class="transition active""'; ?> class="transition">
                             <i class="bi bi-shop"></i>
                             <span>Dashoard</span>
                         </a>
@@ -153,14 +153,14 @@
                     <p class="menu">Barang</p>
 
                     <li>
-                        <a href="<?= base_url('stokbarang/view_stok'); ?>" class="transition">
+                        <a href="<?= base_url('stokbarang/view_stok'); ?>" <?php if ($title == 'Stok Barang') echo 'class="transition active""'; ?> class="transition">
                             <i class="bi bi-shop"></i>
                             <span>Tambah Stok Barang</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="<?= base_url('pembayaran/view_pembayaran'); ?>" class="transition">
+                        <a href="<?= base_url('pembayaran/view_pembayaran'); ?>" <?php if ($title == 'Pembayaran') echo 'class="transition active""'; ?> class="transition">
                             <i class="bi bi-shop"></i>
                             <span>Pembayaran</span>
                         </a>
@@ -170,7 +170,7 @@
                     <p class="menu">Kegiatan</p>
 
                     <li>
-                        <a href="<?= base_url('logactivity/view_log_activity'); ?>" class="transition">
+                        <a href="<?= base_url('logactivity/view_log_activity'); ?>" <?php if ($title == 'Log Activity') echo 'class="transition active""'; ?> class="transition">
                             <i class="bi bi-shop"></i>
                             <span>Log Activity</span>
                         </a>
