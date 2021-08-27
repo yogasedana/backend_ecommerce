@@ -4,28 +4,13 @@
 </div>
 <div class="modal-body">
     <div class="mb-3">
-        <label for="formFileMultiple" class="form-label">Nama Barang</label>
-        <input class="form-control" type="text" name="nama_barang" aria-label="default input example">
-    </div>
-
-    <div class="mb-3">
-        <label for="formFileMultiple" class="form-label">Kategori Barang</label>
-        <input class="form-control" type="text" name="nama_barang" aria-label="default input example">
-    </div>
-
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Deskripsi</label>
+        <label for="exampleFormControlTextarea1" class="form-label">Deskripsi testimoni</label>
         <textarea class="form-control" name="deskripsi" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
 
     <div class="mb-3">
         <label for="formFileMultiple" class="form-label">Pilih Gambar</label>
         <input class="form-control" name="nama_gambar" type="file" id="formFileMultiple" multiple>
-    </div>
-
-    <div class="mb-3">
-        <label for="formFileMultiple" class="form-label">Harga Barang</label>
-        <input class="form-control" type="text" name="nama_barang" aria-label="default input example">
     </div>
 </div>
 <div class="modal-footer">

@@ -143,9 +143,9 @@
                     </li>
 
                     <li>
-                        <a href="#" class="transition">
+                        <a href="<?= base_url('testimoni/view_testimoni'); ?>" class="transition">
                             <i class="bi bi-shop"></i>
-                            <span>Penjualan</span>
+                            <span>Testimoni</span>
                         </a>
                     </li>
 
